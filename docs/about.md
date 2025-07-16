@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # About Me 👋
 
-Hello! I'm passionate about exploring life through various hobbies and interests. This site is my way of sharing those passions, documenting my learning journey, and connecting with others who share similar interests.
+Hello! I'm passionate about exploring life through various hobbies and interests. This site is my way of sharing those passions, documenting my learning journey, and connecting with others who share similar interests
 
 ## Who I Am
 
