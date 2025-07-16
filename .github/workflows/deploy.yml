@@ -39,12 +39,16 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      - name: Clear npm cache
+        run: npm cache clean --force
+
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --registry https://registry.npmjs.org
 
       - name: Build with Docusaurus
         run: npm run build
