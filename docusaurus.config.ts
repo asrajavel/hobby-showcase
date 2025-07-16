@@ -15,14 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-hobby-showcase.example.com',
+  url: 'https://asrajavel.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/hobby-showcase/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-username', // Usually your GitHub org/user name.
+  organizationName: 'asrajavel', // Usually your GitHub org/user name.
   projectName: 'hobby-showcase', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -45,7 +45,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-username/hobby-showcase/tree/main/',
+            'https://github.com/asrajavel/hobby-showcase/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -71,7 +71,7 @@ const config: Config = {
           label: 'Hobbies',
         },
         {
-          href: 'https://github.com/your-username/hobby-showcase',
+          href: 'https://github.com/asrajavel/hobby-showcase',
           label: 'GitHub',
           position: 'right',
         },
